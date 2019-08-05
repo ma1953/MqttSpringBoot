@@ -1,0 +1,14 @@
+host: tcp://192.168.47.131:1883
+SH_INCOMING_TOPIC: /devices/1
+name: admin
+password: root
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mqttdom
+    password: root
+    username: root
+
+
+
+
